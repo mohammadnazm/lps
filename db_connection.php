@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli('localhost', 'root', '12345678', 'lozan_tomar');
+$conn = new mysqli('localhost', 'lps_user', 'StrongPassword123!', 'lozan_tomar');
 mysqli_set_charset($conn, "utf8mb4");
 if ($conn->connect_error) {
   die("Error is: " . $conn->connect_error);
