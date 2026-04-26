@@ -7,7 +7,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <?php
 if (!isset($_SESSION['loginaceo']) || $_SESSION['loginaceo'] !== true) {
     unset($_SESSION['loginaceo']);
-    header('location: index.php');
+    header('location: logout_session.php');
     exit;
 }
 ?>
@@ -63,7 +63,7 @@ $currentDateTime2 = date('Y-m-d');
                         </li>
                         <li class="nav-item">
                             <a class=" btn btn-danger"
-                                href="index.php">چوونەدەرەوە</a>
+                                href="logout_session.php">چوونەدەرەوە</a>
                         </li>
                     </div>
                 </ul>
