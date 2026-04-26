@@ -1,5 +1,11 @@
 <?php
+session_start();
 
+if (!isset($_SESSION['loginadmin']) || $_SESSION['loginadmin'] !== true) {
+    unset($_SESSION['loginadmin']);
+    header('location: logout_session.php');
+    exit;
+}
 require 'vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
