@@ -1,4 +1,4 @@
-
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -135,16 +135,6 @@
 <?php
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-
-session_start();
-unset($_SESSION['loginadmin']);
-unset($_SESSION['loginm']);
-unset($_SESSION['loginaceo']);
-unset($_SESSION['loginass']);
-unset($_SESSION['userid']);
-unset($_SESSION['useraccess']);
-unset($_SESSION['loginViewer']);
-unset($_SESSION['adcontrol']);
 include "db_connection.php"; // Make sure $conn is inside this file
 
 $error = "";
