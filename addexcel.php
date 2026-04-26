@@ -13,12 +13,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 // ================= IMPORT =================
 if(isset($_POST['import_excel'])){
 
-    $conn = new mysqli("localhost","root","12345678","lozan_tomar");
-    $conn->set_charset("utf8");
-
-    if($conn->connect_error){
-        die("DB Error");
-    }
+    include "db_connection.php";
 
     // CHECK FILE
     if($_FILES['excel_file']['name']){
@@ -87,7 +82,6 @@ if(isset($_POST['import_excel'])){
         echo "Imported Successfully ✔";
     }
 
-    $conn->close();
 }
 ?>
 
