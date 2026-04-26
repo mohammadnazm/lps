@@ -1,16 +1,11 @@
 <?php
 ob_start();
+session_start();
+include "db_connection.php";
 require 'vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
-
-$conn = new mysqli("localhost","root","12345678","lozan_tomar");
-$conn->set_charset("utf8");
-
-if($conn->connect_error){
-    die("DB Error");
-}
 
 $spreadsheet = new Spreadsheet();
 $sheet = $spreadsheet->getActiveSheet();
@@ -71,8 +66,6 @@ while($row=$result->fetch_assoc()){
 
     $rowNum++;
 }
-
-$conn->close();
 
 ob_end_clean();
 
