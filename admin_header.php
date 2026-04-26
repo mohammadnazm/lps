@@ -5,7 +5,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
 if (!isset($_SESSION['loginadmin']) || $_SESSION['loginadmin'] !== true) {
     unset($_SESSION['loginadmin']);
-    header('location: index.php');
+    header('location: logout_session.php');
     exit;
 }
 
@@ -127,7 +127,7 @@ $currentDateTime2 = date('Y-m-d');
                         <a class="nav-link <?= ($current_page == 'arch.php') ? 'active' : '' ?>" href="arch.php">Archive</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-danger btn-logout" href="index.php">Logout</a>
+                        <a class="btn btn-danger btn-logout" href="logout_session.php">Logout</a>
                     </li>
                 </ul>
             </div>
