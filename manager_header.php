@@ -36,7 +36,7 @@ if (!isset($_SESSION['loginm']) || $_SESSION['loginm'] !== true) {
 <?php
 if (!isset($_SESSION['loginm']) || $_SESSION['loginm'] !== true) {
     unset($_SESSION['loginm']);
-    header('location: index.php');
+    header('location: logout_session.php');
     exit;
 }
 ?>
@@ -74,7 +74,7 @@ $currentDateTime2 = date('Y-m-d');
                         </li>
                         <li class="nav-item">
                             <a class=" btn btn-danger col-12"
-                                href="index.php">چوونەدەرەوە</a>
+                                href="logout_session.php">چوونەدەرەوە</a>
                         </li>
                     </div>
 
