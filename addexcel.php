@@ -25,7 +25,7 @@ if(isset($_POST['import_excel'])){
         $data = $sheet->toArray();
 
         // START FROM ROW 2 (skip headers)
-        for($i = 1; $i < count($data); $i++){
+       for($i = 1; $i < count($data); $i++){
 
             $row = $data[$i];
 
@@ -59,6 +59,7 @@ if(isset($_POST['import_excel'])){
             $st_statue    = $row[27];
             $st_size      = $row[28];
             $st_img       = $row[29];
+            $st_note      = $row[30];
 
             $sql = "INSERT INTO students (
                 st_name,st_m_name,st_bd_date,st_b_group,st_nation,
@@ -66,14 +67,14 @@ if(isset($_POST['import_excel'])){
                 st_home_loc,st_avg_mark,last_s_name,st_f_year,f_tell,
                 m_tell,st_tell,st_price,st_citiiz,type_of_id,
                 st_id_number,st_id_file,st_class,st_group,st_faculty,
-                st_type,st_date,st_statue,st_size,st_img
+                st_type,st_date,st_statue,st_size,st_img,st_note
             ) VALUES (
                 '$st_name','$st_m_name','$st_bd_date','$st_b_group','$st_nation',
                 '$st_religion','$st_gender','$n_bro','$n_sis','$st_bd_order',
                 '$st_home_loc','$st_avg_mark','$last_s_name','$st_f_year','$f_tell',
                 '$m_tell','$st_tell','$st_price','$st_citiiz','$type_of_id',
                 '$st_id_number','$st_id_file','$st_class','$st_group','$st_faculty',
-                '$st_type','$st_date','$st_statue','$st_size','$st_img'
+                '$st_type','$st_date','$st_statue','$st_size','$st_img','$st_note'
             )";
 
             $conn->query($sql);
@@ -82,6 +83,7 @@ if(isset($_POST['import_excel'])){
         echo "Imported Successfully ✔";
     }
 
+    $conn->close();
 }
 ?>
 
