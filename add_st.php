@@ -239,7 +239,7 @@ html, body {
                     <option value="12">12</option>
                 </select>
                 <select class="form-control card shadow-sm" name="st_gp">
-                    <option value="Z" selected>Group</option>
+                    <option value="newst" selected>Group</option>
                     <?php foreach (range('A', 'Z') as $letter) echo "<option value='{$letter}'>{$letter}</option>"; ?>
                 </select>
                 <select class="form-control card shadow-sm" name="st_faculty" required>
@@ -256,9 +256,9 @@ html, body {
             </div>
 
             <div>
-                <input class="form-control card shadow-sm" type="text" maxlength="11" name="f_tell" placeholder="Father Tell." required>
-                <input class="form-control card shadow-sm" type="text" maxlength="11" name="m_tell" placeholder="Mother Tell." required>
-                <input class="form-control card shadow-sm" type="text" maxlength="11" name="s_tell" placeholder="Student Tell.">
+                <input class="form-control card shadow-sm" type="text" maxlength="13" name="f_tell" placeholder="Father Tell." required>
+                <input class="form-control card shadow-sm" type="text" maxlength="13" name="m_tell" placeholder="Mother Tell." required>
+                <input class="form-control card shadow-sm" type="text" maxlength="13" name="s_tell" placeholder="Student Tell.">
                 <select class="form-control card shadow-sm" name="citiz" required>
                     <option value="" disabled selected>Citizenship</option>
                     <option value="عێراق">عێراق</option>
