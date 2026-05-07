@@ -37,7 +37,8 @@ if (isset($_POST['up_st_data'])) {
         $_POST['stprice3'],
         $_POST['stimagenm'],
         $_POST['cl_size'],
-        $_POST['stfilenm']
+        $_POST['stfilenm'],
+        $_POST['extrainfo']
     );
     echo "</div>";
 }
@@ -127,6 +128,7 @@ if ($stdList->num_rows > 0) {
         $stlsc2 = $row['st_f_year'];
         $imgname = $row['st_img'];
         $stsize = $row['st_size'];
+        $stnote = $row['st_note'];
     }
 }
 ?>
@@ -247,6 +249,8 @@ if ($stdList->num_rows > 0) {
                             <label style="min-width:120px;text-align:right;"> ناسنامە </label>
                         </div>
                     </div>
+                    <div style="margin:5px"><textarea class="form-control" name="extrainfo" style="margin-left: 3px;text-align: center;" rows="4" placeholder="تێبینی"><?php echo $stnote ?></textarea></div>
+
             </div>
 
             <!-- STUDENT INFO -->
@@ -266,6 +270,7 @@ if ($stdList->num_rows > 0) {
                     <div style="display:flex;align-items:center;gap:10px;">
                         <select <?php if ($stgroup == null) echo " style='border-color:red;border-width:5px'"; ?> class="form-control card shadow-sm" name="st_gp">
                             <option value="" <?php if ($stgroup == null) echo "selected"; ?> disabled>Group</option>
+                            <option value="newst" <?php if ($stgroup == "newst") echo "selected"; ?>>New Student</option>
                             <option value="A" <?php if ($stgroup == "A") echo "selected"; ?>>A</option>
                             <option value="B" <?php if ($stgroup == "B") echo "selected"; ?>>B</option>
                             <option value="C" <?php if ($stgroup == "C") echo "selected"; ?>>C</option>
