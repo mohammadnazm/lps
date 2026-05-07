@@ -73,6 +73,10 @@ $currentDateTime2 = date('Y-m-d');
                                 href="today_att.php"> تۆماری نەهاتوو</a>
                         </li>
                         <li class="nav-item">
+                            <a class="btn btn-info col-12"
+                                href="lozanstaaffpage.php"> ستافی مامۆستایان </a>
+                        </li>
+                        <li class="nav-item">
                             <a class=" btn btn-danger col-12"
                                 href="logout_session.php">چوونەدەرەوە</a>
                         </li>
