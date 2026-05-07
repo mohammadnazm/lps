@@ -10,13 +10,14 @@ use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 $spreadsheet = new Spreadsheet();
 $sheet = $spreadsheet->getActiveSheet();
 
+
 $headers = [
 "Name","Middle Name","Birth Date","Blood Group","Nation",
 "Religion","Gender","Brothers","Sisters","Birth Order",
 "Home Location","Average Mark","Last School","First Year",
 "Father Tell","Mother Tell","Student Tell","Price",
 "Citizenship","ID Type","ID Number","ID File","Class",
-"Group","Faculty","Type","Date","Status","Size","Image"
+"Group","Faculty","Type","Date","Status","Size","Image","Student Note"
 ];
 
 $col='A';
@@ -61,12 +62,12 @@ while($row=$result->fetch_assoc()){
         $row['st_date'],
         $row['st_statue'],
         $row['st_size'],
-        $row['st_img']
+        $row['st_img'],
+        $row['st_note']
     ],NULL,'A'.$rowNum);
 
     $rowNum++;
 }
-
 ob_end_clean();
 
 header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
