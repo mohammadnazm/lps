@@ -211,6 +211,7 @@ if (isset($_GET['did'])) {
                 <!-- Group -->
                 <select class="form-control" name="st_group" style="flex:1; min-width:80px;">
                     <option disabled selected>Group</option>
+                    <option value="newst">قوتابی نوێ</option>
                     <?php foreach (range('A', 'Z') as $letter) echo "<option value='$letter'>$letter</option>"; ?>
                 </select>
 
