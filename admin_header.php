@@ -127,6 +127,9 @@ $currentDateTime2 = date('Y-m-d');
                         <a class="nav-link <?= ($current_page == 'arch.php') ? 'active' : '' ?>" href="arch.php">Archive</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link <?= ($current_page == 'add_lozanstaff.php') ? 'active' : '' ?>" href="add_lozanstaff.php">Add Lozan Staff</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="btn btn-danger btn-logout" href="logout_session.php">Logout</a>
                     </li>
                 </ul>
