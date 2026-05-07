@@ -155,6 +155,7 @@ function getDhySearch($table)
                     name="st_group"
                     style="flex:1;min-width:80px">
                     <option disabled selected>هۆبە</option>
+                    <option value="newst">قوتابی نوێ</option>
                     <?php foreach (range('A', 'Z') as $l) echo "<option value='$l'>$l</option>"; ?>
                 </select>
 
