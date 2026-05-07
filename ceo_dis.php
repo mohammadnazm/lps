@@ -13,7 +13,7 @@ include "db_connection.php";
 <?php
 if (isset($_POST["upd"])) {
     echo "<div class='alert alert-success' role='alert'>";
-    updateDisc($_GET['did'], $_POST["stdisc"]);
+    updateDisc($_GET['did'], $_POST["stdisc"],$_POST['extrainfo']);
     echo "</div>";
 }
 ?>
@@ -74,6 +74,7 @@ if ($stdList->num_rows > 0) {
         $status = $row['st_statue'];
         $stpay = $row['st_price'];
         $stfaculty = $row['st_faculty'];
+        $stnote = $row['st_note'];
     }
 }
 ?>
@@ -137,7 +138,11 @@ if ($stdList->num_rows > 0) {
                     <h6 style="text-align: right;"><?php echo "<t style='color:darkblue'>{$stgroup}</t>" ?> : هۆبە </h6>
                     <h6 style="text-align: right;"> جۆری قوتابی : <?php echo "<t style='color:darkblue'>{$stype}</t>" ?></h6>
                     <h6 style="text-align: right;"> قسم : <?php echo "<t style='color:darkblue'>{$stfaculty}</t>" ?></h6>
-                    <form action="" method="post" style="margin: 5px;display: flex;flex-direction: row;gap:5px"> <input style="text-align: center;width:100px;" class="form-control" name="stdisc" type="text" value="<?php echo $stpay ?>"> <button class="btn btn-info" name="upd" onclick="return confirm('دلنیایت لە پێدانی داشکان بەم قوتابیە ؟');">کرێی خوێندن</button></form>
+                    <form action="" method="post" style="margin: 5px;display: flex;flex-direction: row;gap:5px">
+                        <div style="margin:5px"><textarea class="form-control" name="extrainfo" style="margin-left: 3px;text-align: center;" rows="4" placeholder="تێبینی"><?php echo $stnote ?></textarea></div>
+                        <br>
+                        <input style="text-align: center;width:100px;" class="form-control" name="stdisc" type="text" value="<?php echo $stpay ?>"> <button class="btn btn-info" name="upd" onclick="return confirm('دلنیایت لە پێدانی داشکان بەم قوتابیە ؟');">نوی کردنەوە </button>
+                    </form>
                     <h6 style="text-align: right;"> دوا قوتابخانە : <?php echo "<t style='color:darkblue'>{$scnm}</t>" ?></h6>
                     <h6 style="text-align: right;"> کۆنمرەی دواین ساڵ : <?php echo "<t style='color:darkblue'>{$avgm}</t>" ?></h6>
                     <h6 style="text-align: right;"> <?php echo "<t style='color:darkblue'>{$fildyears}</t>" ?> : چەندەمین سالە لەم پۆلە</h6>
