@@ -18,6 +18,26 @@ function insertStudents($tv, $as, $yt, $qw, $we, $rt, $cv, $zx, $adas, $xcv, $mc
     die("Error is: " . $conn->connect_error);
   }
 }
+function insertTeachers($re, $yt, $iu, $bhs)
+{
+  global $conn;
+  $sql = "INSERT INTO lozanstaff(teacher_img,name,education,class) VALUES ('$re','$yt','$iu','$bhs')";
+  if ($conn->query($sql) === TRUE) {
+    echo "Student Added successfully. &#10004";
+  } else {
+    die("Error is: " . $conn->connect_error);
+  }
+}
+function insertClosedClass($re,$tys)
+{
+  global $conn;
+  $sql = "INSERT INTO staffclasscon(class_name,class_status) VALUES ('$re','$tys')";
+  if ($conn->query($sql) === TRUE) {
+    echo "Class Disabled successfully. &#10004";
+  } else {
+    die("Error is: " . $conn->connect_error);
+  }
+}
 function insertUsers($re, $yt, $iu, $bhs)
 {
   global $conn;
@@ -377,11 +397,12 @@ function getDhForAllStCountGradeTB()
   }
   return 0;
 }
-function updateDisc($uname, $upas)
+function updateDisc($uname, $upas,$yutw)
 {
   global $conn;
   $sql = "UPDATE students SET
-                  st_price='$upas'
+                  st_price='$upas',
+                  st_note='$yutw'
                   WHERE id='$uname'";
 
   if ($conn->query($sql) === TRUE) {
@@ -403,7 +424,7 @@ function updateStClass($uname, $upas)
     die("Error is: " . $conn->connect_error);
   }
 }
-function updateSTdata($id, $st_name, $st_m_name, $nation, $religion, $citizen, $type_id, $id_number, $st_class, $st_group, $st_type, $st_price, $faculty, $status, $f_tell, $m_tell, $st_tell, $n_bro, $n_sis, $bd_order, $bd_date, $gender, $blood, $home_loc, $yt1, $yt2, $yt3, $mnhgasi, $bnsa, $iuw)
+function updateSTdata($id, $st_name, $st_m_name, $nation, $religion, $citizen, $type_id, $id_number, $st_class, $st_group, $st_type, $st_price, $faculty, $status, $f_tell, $m_tell, $st_tell, $n_bro, $n_sis, $bd_order, $bd_date, $gender, $blood, $home_loc, $yt1, $yt2, $yt3, $mnhgasi, $bnsa, $iuw,$hgaj)
 {
   global $conn;
   $sql = "UPDATE students SET
@@ -435,7 +456,8 @@ function updateSTdata($id, $st_name, $st_m_name, $nation, $religion, $citizen, $
         st_f_year    = '$yt3',
         st_img     ='$mnhgasi',
         st_size = '$bnsa',
-        st_id_file = '$iuw'
+        st_id_file = '$iuw',
+        st_note = '$hgaj'
         WHERE id = '$id'
     ";
   if ($conn->query($sql) === TRUE) {
