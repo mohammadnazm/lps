@@ -51,14 +51,14 @@ if (isset($_POST["cl_class"])) {
 <?php
 if (isset($_GET['did'])) {
     $id = intval($_GET['did']);
-    $getImg = mysqli_query($conn, "SELECT teacher_img FROM lozanstaff WHERE id = $id");
-    $row = mysqli_fetch_assoc($getImg);
-    if (!empty($row['teacher_img'])) {
-        $imgPath1 = "teachers_img/" . $row['teacher_img'];
-        if (file_exists($imgPath1)) {
-            unlink($imgPath1);
-        }
-    }
+    // $getImg = mysqli_query($conn, "SELECT teacher_img FROM lozanstaff WHERE id = $id");
+    // $row = mysqli_fetch_assoc($getImg);
+    // if (!empty($row['teacher_img'])) {
+    //     $imgPath1 = "teachers_img/" . $row['teacher_img'];
+    //     if (file_exists($imgPath1)) {
+    //         unlink($imgPath1);
+    //     }
+    // }
     DeleteData("lozanstaff", $_GET['did']);
     echo "<script>
             alert('Data deleted successfully');
