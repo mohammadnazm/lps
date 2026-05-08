@@ -120,9 +120,9 @@ $currentDateTime2 = date('Y-m-d');
                     <li class="nav-item">
                         <a class="nav-link <?= ($current_page == 'ad_atten.php') ? 'active' : '' ?>" href="ad_atten.php">Attendance</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link <?= ($current_page == 'edit_att_data.php') ? 'active' : '' ?>" href="edit_att_data.php">Control</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link <?= ($current_page == 'arch.php') ? 'active' : '' ?>" href="arch.php">Archive</a>
                     </li>
