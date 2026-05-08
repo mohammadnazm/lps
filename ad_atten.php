@@ -127,6 +127,8 @@
         <input type="date" required name="atten_date1" class="form-control" style="flex:1; min-width:150px;" placeholder="To Date">
         <button type="submit" name="att_se" class="btn btn-success" style="min-width:100px;">گەران</button>
     </form>
+    <br>
+    <a href="edit_att_data.php"><button class="btn btn-warning col-12">Control Attendance</button></a>
 </div>
 
 <!-- ================= TABLE ================= -->
