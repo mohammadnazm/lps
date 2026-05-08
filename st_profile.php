@@ -89,7 +89,8 @@ if ($stdList->num_rows > 0) {
                 } else {
                     echo '<img style="width:auto;height:150px;" src="' . $path . 'default.png" alt="">';
                 }
-                ?></div>
+                ?>
+            </div>
             <br>
             <div>
                 <h4 style="text-align: center;color:darkblue">زانیاری ناسنامە</h4>
@@ -100,7 +101,6 @@ if ($stdList->num_rows > 0) {
                     <h6 style="text-align: right;"> رەگەزنامە : <?php echo "<t style='color:darkblue'>{$citizen}</t>" ?></h6>
                     <h6 style="text-align: right;"> جۆری ناسنامە : <?php echo "<t style='color:darkblue'>{$typeofid} </t>" ?></h6>
                     <h6 style="text-align: right;"> ژمارەی ناسنامە : <?php echo "<t style='color:darkblue'>{$idnum}</t>" ?></h6>
-                    <h6 style="padding: 10px;margin-left: 20px;margin-top:-0.5%"><?php echo "<t style='color:darkblue'>{$regdate}</t>" ?></h6>
                 </div>
             </div>
             <br>
@@ -140,7 +140,7 @@ if ($stdList->num_rows > 0) {
             </div>
         </div>
         <div style="width: 560px;margin-top:-14%;margin-left: 20px;">
-            <div style="margin:5px;"><textarea class="form-control" name="extrainfo" style="margin-left: 3px;text-align: center;" rows="4" placeholder="تێبینی" disabled><?php echo $stnote; ?></textarea></div>
+            <div style="margin:5px;"><textarea class="form-control" name="extrainfo" style="margin-left: 0px;text-align: center;" rows="4" placeholder="تێبینی" disabled><?php echo $stnote; ?></textarea></div>
             <?php
             $path = "id_data/";
             $extensions = ['jpg', 'jpeg', 'png', 'gif', 'avif'];
@@ -172,7 +172,7 @@ if ($stdList->num_rows > 0) {
             ?>
         </div>
     </div>
-
+    <h6 style="padding: 10px;margin-left: 20px;margin-top:-0.5%"><?php echo "<t style='color:darkblue'>{$regdate}</t>" ?></h6>
 </body>
 
 </html>
