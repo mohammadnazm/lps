@@ -151,9 +151,6 @@
     <div class="letters">
 
         <?php
-        // database connection
-        $conn = new mysqli('localhost', 'root', '12345678', 'lozan_tomar');
-
         foreach (range('A', 'Z') as $letter) {
 
             $className = "12-$letter";
