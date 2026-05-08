@@ -13,27 +13,65 @@ function normalizeName($text)
 
 function getDhySearch($table)
 {
-    if (!isset($_POST['st_se'])) return false;
     global $conn;
+
+    // allow search OR dis button
+    if (!isset($_POST['st_se']) && !isset($_POST['dis'])) {
+        return false;
+    }
+
     $conditions = [];
 
+    /* ================= DIS FILTER ================= */
+    if (isset($_POST['dis'])) {
+
+        $conditions[] = "(
+            (st_class = 12 AND st_price != '2,500,000') OR
+            (st_class = 11 AND st_price != '2,000,000') OR
+            (st_class = 10 AND st_price != '2,000,000')
+        )";
+    }
+
+    /* ================= NAME SEARCH ================= */
     if (!empty($_POST['st_name'])) {
-        $name = mysqli_real_escape_string($conn, normalizeName(trim($_POST['st_name'])));
+
+        $name = mysqli_real_escape_string(
+            $conn,
+            normalizeName(trim($_POST['st_name']))
+        );
+
         $words = explode(" ", $name);
         $nameConditions = [];
+
         foreach ($words as $word) {
-            if (!empty($word)) $nameConditions[] = "TRIM(st_name) LIKE '%$word%'";
+            if (!empty($word)) {
+                $nameConditions[] = "TRIM(st_name) LIKE '%$word%'";
+            }
         }
-        if (!empty($nameConditions)) $conditions[] = "(" . implode(" AND ", $nameConditions) . ")";
+
+        if (!empty($nameConditions)) {
+            $conditions[] = "(" . implode(" AND ", $nameConditions) . ")";
+        }
     }
-    if (!empty($_POST['st_group'])) $conditions[] = "st_group = '" . mysqli_real_escape_string($conn, $_POST['st_group']) . "'";
-    if (!empty($_POST['st_class'])) $conditions[] = "st_class = '" . mysqli_real_escape_string($conn, $_POST['st_class']) . "'";
-    if (!empty($_POST['st_faculty'])) $conditions[] = "st_faculty = '" . mysqli_real_escape_string($conn, $_POST['st_faculty']) . "'";
-    if (!empty($_POST['st_statue'])) $conditions[] = "st_statue = '" . mysqli_real_escape_string($conn, $_POST['st_statue']) . "'";
+
+    /* ================= OTHER FILTERS ================= */
+
+    if (!empty($_POST['st_group']))
+        $conditions[] = "st_group='" . mysqli_real_escape_string($conn, $_POST['st_group']) . "'";
+
+    if (!empty($_POST['st_class']))
+        $conditions[] = "st_class='" . mysqli_real_escape_string($conn, $_POST['st_class']) . "'";
+
+    if (!empty($_POST['st_faculty']))
+        $conditions[] = "st_faculty='" . mysqli_real_escape_string($conn, $_POST['st_faculty']) . "'";
+
+    if (!empty($_POST['st_statue']))
+        $conditions[] = "st_statue='" . mysqli_real_escape_string($conn, $_POST['st_statue']) . "'";
 
     if (empty($conditions)) return false;
 
     $sql = "SELECT * FROM `$table` WHERE " . implode(" AND ", $conditions);
+
     return mysqli_query($conn, $sql);
 }
 ?>
@@ -236,10 +274,11 @@ if (isset($_GET['did'])) {
                     <option value="بەردەوام">بەردەوام</option>
                     <option value="بەجێهێشتوو">بەجێهێشتوو</option>
                 </select>
-
+                <button class="btn btn-warning" name="dis">Discounts</button>
                 <!-- Submit -->
-                <button class="btn btn-success" name="st_se" type="submit" style="flex:0 0 auto;">Search</button>
             </div>
+            <br>
+            <button class="btn btn-success col-12" name="st_se" type="submit" style="flex:0 0 auto;">Search</button>
         </form>
     </div>
 
