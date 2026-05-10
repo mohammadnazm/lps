@@ -250,7 +250,7 @@ if ($stdList->num_rows > 0) {
                             <label style="min-width:120px;text-align:right;"> ناسنامە </label>
                         </div>
                     </div>
-                    <div style="margin:5px"><textarea class="form-control" value="<?php echo $stnote ?>" name="extrainfo" style="margin-left: 3px;text-align: center;" rows="4" placeholder="تێبینی"><?php echo $stnote ?></textarea></div>
+                    <div style="margin:5px"><textarea class="form-control"  name="extrainfo" style="margin-left: 3px;text-align: center;" rows="4" placeholder="تێبینی"><?php echo $stnote ?></textarea></div>
 
             </div>
 
