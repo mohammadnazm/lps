@@ -142,33 +142,7 @@ if ($stdList->num_rows > 0) {
         <div style="width: 560px;margin-top:-14%;margin-left: 20px;">
             <div style="margin:5px;"><textarea class="form-control" name="extrainfo" style="margin-left: 0px;text-align: center;" rows="4" placeholder="تێبینی" disabled><?php echo $stnote; ?></textarea></div>
             <?php
-            $path = "id_data/";
-            $extensions = ['jpg', 'jpeg', 'png', 'gif', 'avif'];
-            $imageFile = '';
-
-            // 1️⃣ Check if filename already has extension
-            if (pathinfo($idfile, PATHINFO_EXTENSION)) {
-
-                if (file_exists($path . $idfile)) {
-                    $imageFile = $idfile;
-                }
-            } else {
-
-                // 2️⃣ If no extension, try all allowed extensions
-                foreach ($extensions as $ext) {
-                    if (file_exists($path . $idfile . '.' . $ext)) {
-                        $imageFile = $idfile . '.' . $ext;
-                        break;
-                    }
-                }
-            }
-
-            // 3️⃣ Display image or default
-            if ($imageFile) {
-                echo '<img style="width:auto;height:180px;" src="' . $path . $imageFile . '" alt="">';
-            } else {
-                echo '<img style="width:auto;height:180px;" src="' . $path . 'default.png" alt="">';
-            }
+            echo "<a href='#' onclick=\"window.open('id_data/".$idfile."','_blank','width=800,height=600'); return false;\">Open ID</a>";
             ?>
         </div>
     </div>
