@@ -346,6 +346,7 @@ if ($stdList->num_rows > 0) {
                             <option value="XS" <?php if ($stsize == "XS") echo "selected style='border-color:red;border-width:5px'"; ?>>XS</option>
                             <option value="Small" <?php if ($stsize == "Small") echo "selected style='border-color:red;border-width:5px'"; ?>>Small</option>
                             <option value="Medium" <?php if ($stsize == "Medium") echo "selected style='border-color:red;border-width:5px'"; ?>>Medium</option>
+                            <option value="Medium" <?php if ($stsize == "Large") echo "selected style='border-color:red;border-width:5px'"; ?>>Large</option>
                             <option value="XL" <?php if ($stsize == "XL") echo "selected style='border-color:red;border-width:5px'"; ?>>XL</option>
                             <option value="2XL" <?php if ($stsize == "2XL") echo "selected style='border-color:red;border-width:5px'"; ?>>2XL</option>
                             <option value="3XL" <?php if ($stsize == "3XL") echo "selected style='border-color:red;border-width:5px'"; ?>>3XL</option>
@@ -401,8 +402,8 @@ if ($stdList->num_rows > 0) {
                     <div style="display:flex;align-items:center;gap:10px;">
                         <select class="form-control card shadow-sm" name="gender">
                             <option value="" <?php if ($gender == null) echo "selected style='border-color:red;border-width:5px'"; ?>>Gender</option>
-                            <option value="male" <?php if ($gender == "Male") echo "selected"; ?>>Male</option>
-                            <option value="female" <?php if ($gender == "Female") echo "selected"; ?>>Female</option>
+                            <option value="Male" <?php if ($gender == "Male") echo "selected"; ?>>Male</option>
+                            <option value="Female" <?php if ($gender == "Female") echo "selected"; ?>>Female</option>
                         </select> <label style="min-width:120px;text-align:right;">رەگەز </label>
                     </div>
                     <div style="display:flex;align-items:center;gap:10px;">
@@ -410,8 +411,8 @@ if ($stdList->num_rows > 0) {
                             <option value="" <?php if ($bloofgr == null) echo "selected style='border-color:red;border-width:5px'"; ?>>Blood Group</option>
                             <option value="A+" <?php if ($bloofgr == "A+") echo "selected"; ?>>A+</option>
                             <option value="A-" <?php if ($bloofgr == "A-") echo "selected"; ?>>A-</option>
-                            <option value="AB+ <?php if ($bloofgr == "AB+") echo "selected"; ?>">AB+</option>
-                            <option value="AB- <?php if ($bloofgr == "AB-") echo "selected"; ?>">AB-</option>
+                            <option value="AB+" <?php if ($bloofgr == "AB+") echo "selected"; ?>">AB+</option>
+                            <option value="AB-" <?php if ($bloofgr == "AB-") echo "selected"; ?>">AB-</option>
                             <option value="B+" <?php if ($bloofgr == "B+") echo "selected"; ?>>B+</option>
                             <option value="B-" <?php if ($bloofgr == "B-") echo "selected"; ?>>B-</option>
                             <option value="O+" <?php if ($bloofgr == "O+") echo "selected"; ?>>O+</option>
