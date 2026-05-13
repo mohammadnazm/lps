@@ -218,6 +218,7 @@ html, body {
                     <option value="XS">XS</option>
                     <option value="Small">Small</option>
                     <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
                     <option value="XL">XL</option>
                     <option value="2XL">2XL</option>
                     <option value="3XL">3XL</option>
