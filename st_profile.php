@@ -112,7 +112,7 @@ if ($stdList->num_rows > 0) {
                     <h6 style="text-align: right;"><?php echo "<t style='color:darkblue'>{$stgroup}</t>" ?> : هۆبە </h6>
                     <h6 style="text-align: right;"> جۆری قوتابی : <?php echo "<t style='color:darkblue'>{$stype}</t>" ?></h6>
                     <h6 style="text-align: right;"> قسم : <?php echo "<t style='color:darkblue'>{$stfaculty}</t>" ?></h6>
-                    <h6 style="text-align: right;"> کرێی خوێندن : <?php echo $stpay ?></h6>
+                    <h6 style="text-align: right;"<?php if($_SESSION['useraccess'] == "All"){$vp = "hidden";}else{$vp = " ";}?> <?php echo $vp; ?>> کرێی خوێندن : <?php echo $stpay ?></h6>
                     <h6 style="text-align: right;"> دوا قوتابخانە : <?php echo "<t style='color:darkblue'>{$scnm}</t>" ?></h6>
                     <h6 style="text-align: right;"> کۆنمرەی دواین ساڵ : <?php echo "<t style='color:darkblue'>{$avgm}</t>" ?></h6>
                     <h6 style="text-align: right;"> <?php echo "<t style='color:darkblue'>{$fildyears}</t>" ?> : چەندەمین سالە لەم پۆلە</h6>
