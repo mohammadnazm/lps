@@ -3,6 +3,8 @@
 <?php
 session_start();
 include "db_connection.php";
+ini_set('display_errors', 0);
+
 ?>
 
 <head>
@@ -132,8 +134,12 @@ if ($stdList->num_rows > 0) {
                     <h6 style="text-align: right;">ژمارەی برا : <?php echo "<t style='color:darkblue'>{$numbro}</t>" ?></h6>
                     <h6 style="text-align: right;"> ژمارەی خوشك : <?php echo "<t style='color:darkblue'>{$numsis}</t>" ?></h6>
                     <h6 style="text-align: right;"> چەندەمین مندالە : <?php echo "<t style='color:darkblue'>{$storder}</t>" ?></h6>
-                    <h6 style="text-align: right;"> بەرواری لە دایکبوون : <?php echo "<t style='color:darkblue'>{$bddate}</t>" ?></h6>
-                    <h6 style="text-align: right;"> <?php echo "<t style='color:darkblue'>{$gender}</t>" ?> : رەگەز </h6>
+<h6 style="text-align: right;">
+بەرواری لە دایکبوون :
+<?php
+echo "<t style='color:darkblue'>" . date("d - m - Y", strtotime($bddate)) . "</t>";
+?>
+</h6>                      <h6 style="text-align: right;"> <?php echo "<t style='color:darkblue'>{$gender}</t>" ?> : رەگەز </h6>
                     <h6 style="text-align: right;"> <?php echo "<t style='color:darkblue'>{$bloofgr}</t>" ?> : گرووپی خوێن </h6>
                     <h6 style="text-align: right;"> شوێنی نیشتەجێ بوون : <?php echo "<t style='color:darkblue'>{$locationh}</t>" ?></h6>
                 </div>
