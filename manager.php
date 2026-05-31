@@ -44,7 +44,7 @@ function getDhySearch($table)
 
     if (empty($conditions)) return false;
 
-    $sql = "SELECT * FROM `$table` WHERE " . implode(" AND ", $conditions);
+    $sql = "SELECT * FROM `$table` WHERE " . implode(" AND ", $conditions). " ORDER BY st_name ASC";
     return mysqli_query($conn, $sql);
 }
 ?>
