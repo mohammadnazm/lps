@@ -1,4 +1,6 @@
-<?php include "admin_header.php"; ?>
+<?php
+ob_start();
+include "admin_header.php"; ?>
 
 <?php
 if (isset($_SESSION['msg'])) {
@@ -257,5 +259,7 @@ if (isset($_GET['did'])) {
 
 </div>
 
-
+<?php
+ob_end_flush();
+?>
 <?php include "admin_footer.php"; ?>
