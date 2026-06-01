@@ -178,7 +178,7 @@ function getDhForAllSchool()
 function getDhForAllSchooldISC()
 {
   global $conn;
-  $sql = "SELECT COUNT(*) AS total_stschool FROM students WHERE st_price !='2,500,000' AND st_class = '12' ";
+  $sql = "SELECT COUNT(*) AS total_stschool FROM students WHERE st_price !='2500000' AND st_class = '12' ";
   $result = $conn->query($sql);
 
   if ($result) {
@@ -190,7 +190,7 @@ function getDhForAllSchooldISC()
 function getDhForAllSchooldISC1()
 {
   global $conn;
-  $sql = "SELECT COUNT(*) AS total_stschool FROM students WHERE st_price !='2,000,000' AND st_class = '11' ";
+  $sql = "SELECT COUNT(*) AS total_stschool FROM students WHERE st_price !='2000000' AND st_class = '11' ";
   $result = $conn->query($sql);
 
   if ($result) {
@@ -202,7 +202,7 @@ function getDhForAllSchooldISC1()
 function getDhForAllSchooldISC12()
 {
   global $conn;
-  $sql = "SELECT COUNT(*) AS total_stschool FROM students WHERE st_price !='2,000,000' AND  st_class='10' ";
+  $sql = "SELECT COUNT(*) AS total_stschool FROM students WHERE st_price !='2000000' AND  st_class='10' ";
   $result = $conn->query($sql);
 
   if ($result) {
