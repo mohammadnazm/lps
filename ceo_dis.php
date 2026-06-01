@@ -154,7 +154,7 @@ if ($stdList->num_rows > 0) {
                 <hr>
                 <div style="display: flex;flex-direction: column;gap:10px;padding: 3px;">
                     <h6 style="text-align: right;"> ناوی قوتابی : <?php echo "<t style='color:darkblue'>{$name}</t>" ?></h6>
-                    <h6 style="text-align: right;"> <?php echo "<span style='color:darkblue; direction:ltr; unicode-bidi:bidi-override;'>{$mname}</span>" ?> : ناوی سیانی دایك</h6>
+                    <h6 style="text-align: right;"> ناوی سیانی دایك : <?php echo "<span style='color:darkblue;'>{$mname}</span>" ?></h6>
                     <h6 style="text-align: right;"> <?php echo "<span style='color:darkblue; direction:ltr; unicode-bidi:bidi-override;'>{$ftell}</span>" ?> : ژمارە مۆبایل باوك</h6>
                     <h6 style="text-align: right;"> <?php echo "<span style='color:darkblue; direction:ltr; unicode-bidi:bidi-override;'>{$mtell}</span>" ?> : ژمارە مۆبایل دایك </h6>
                     <h6 style="text-align: right;"> <?php echo "<span style='color:darkblue; direction:ltr; unicode-bidi:bidi-override;'>{$stellen}</span>" ?> : ژمارە مۆبایل قوتابی</h6>
