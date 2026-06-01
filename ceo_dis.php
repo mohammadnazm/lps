@@ -141,7 +141,7 @@ if ($stdList->num_rows > 0) {
                     <form action="" method="post" style="margin: 5px;display: flex;flex-direction: row;gap:5px">
                         <div style="margin:5px"><textarea class="form-control" name="extrainfo" style="margin-left: 3px;text-align: center;" rows="4" placeholder="تێبینی"><?php echo $stnote ?></textarea></div>
                         <br>
-                        <input style="text-align: center;width:100px;" class="form-control" name="stdisc" type="text" value="<?php echo $stpay ?>"> <button class="btn btn-info" name="upd" onclick="return confirm('دلنیایت لە پێدانی داشکان بەم قوتابیە ؟');">نوی کردنەوە </button>
+                        <input style="text-align: center;width:100px;" class="form-control" name="stdisc" type="number" value="<?php echo $stpay ?>"> <button class="btn btn-info" name="upd" onclick="return confirm('دلنیایت لە پێدانی داشکان بەم قوتابیە ؟');">نوی کردنەوە </button>
                     </form>
                     <h6 style="text-align: right;"> دوا قوتابخانە : <?php echo "<t style='color:darkblue'>{$scnm}</t>" ?></h6>
                     <h6 style="text-align: right;"> کۆنمرەی دواین ساڵ : <?php echo "<t style='color:darkblue'>{$avgm}</t>" ?></h6>
