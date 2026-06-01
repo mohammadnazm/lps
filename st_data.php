@@ -26,9 +26,9 @@ function getDhySearch($table)
     if (isset($_POST['dis'])) {
 
         $conditions[] = "(
-            (st_class = 12 AND st_price != '2,500,000') OR
-            (st_class = 11 AND st_price != '2,000,000') OR
-            (st_class = 10 AND st_price != '2,000,000')
+            (st_class = 12 AND st_price != '2500000') OR
+            (st_class = 11 AND st_price != '2000000') OR
+            (st_class = 10 AND st_price != '2000000')
         )";
     }
 
