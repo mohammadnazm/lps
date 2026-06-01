@@ -20,11 +20,11 @@ include "admin_header.php";
         move_uploaded_file($tmpname2, "id_data/" . $filename2);
 
         if ($_POST['st_class'] == "12") {
-            $stprice = "2,500,000";
+            $stprice = "2500000";
         } elseif ($_POST['st_class'] == "11") {
-            $stprice = "2,000,000";
+            $stprice = "2000000";
         } elseif ($_POST['st_class'] == "10") {
-            $stprice = "2,000,000";
+            $stprice = "2000000";
         }
 
         insertStudents(
