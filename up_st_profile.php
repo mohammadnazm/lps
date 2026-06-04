@@ -411,8 +411,8 @@ if ($stdList->num_rows > 0) {
                             <option value="" <?php if ($bloofgr == null) echo "selected style='border-color:red;border-width:5px'"; ?>>Blood Group</option>
                             <option value="A+" <?php if ($bloofgr == "A+") echo "selected"; ?>>A+</option>
                             <option value="A-" <?php if ($bloofgr == "A-") echo "selected"; ?>>A-</option>
-                            <option value="AB+" <?php if ($bloofgr == "AB+") echo "selected"; ?>">AB+</option>
-                            <option value="AB-" <?php if ($bloofgr == "AB-") echo "selected"; ?>">AB-</option>
+                            <option value="AB+" <?php if ($bloofgr == "AB+") echo "selected"; ?>>AB+</option>
+                            <option value="AB-" <?php if ($bloofgr == "AB-") echo "selected"; ?>>AB-</option>
                             <option value="B+" <?php if ($bloofgr == "B+") echo "selected"; ?>>B+</option>
                             <option value="B-" <?php if ($bloofgr == "B-") echo "selected"; ?>>B-</option>
                             <option value="O+" <?php if ($bloofgr == "O+") echo "selected"; ?>>O+</option>
