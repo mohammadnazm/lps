@@ -46,15 +46,36 @@ if (isset($_POST['up_st_data'])) {
 ?>
 <?php
 if (isset($_POST["upidf"])) {
-    $id = intval($_GET['did']);
-    $getImg = mysqli_query($conn, "SELECT st_id_file FROM students WHERE id = $id");
-    $row = mysqli_fetch_assoc($getImg);
-    if (!empty($row['st_id_file'])) {
-        $imgPath2 = "id_data/" . $row['st_id_file'];
+$id = intval($_GET['did']);
+$getImg = mysqli_query($conn, "SELECT st_id_file FROM students WHERE id = $id");
+$row = mysqli_fetch_assoc($getImg);
+
+if (!empty($row['st_id_file'])) {
+
+    $oldFile = $row['st_id_file'];
+    $extensions = ['jpg', 'jpeg', 'png', 'gif', 'avif'];
+
+    if (pathinfo($oldFile, PATHINFO_EXTENSION)) {
+
+        $imgPath2 = "id_data/" . $oldFile;
+
         if (file_exists($imgPath2)) {
             unlink($imgPath2);
         }
+
+    } else {
+
+        foreach ($extensions as $ext) {
+
+            $imgPath2 = "id_data/" . $oldFile . "." . $ext;
+
+            if (file_exists($imgPath2)) {
+                unlink($imgPath2);
+                break;
+            }
+        }
     }
+}
     echo "<div class='alert alert-success' role='alert'>";
     $filename2 = $_FILES['st_id_file_in']['name'];
     $tmpname2  = $_FILES['st_id_file_in']['tmp_name'];
@@ -65,15 +86,36 @@ if (isset($_POST["upidf"])) {
 ?>
 <?php
 if (isset($_POST["upstpro"])) {
-    $id = intval($_GET['did']);
-    $getImg = mysqli_query($conn, "SELECT st_img FROM students WHERE id = $id");
-    $row = mysqli_fetch_assoc($getImg);
-    if (!empty($row['st_img'])) {
-        $imgPath2 = "st_image/" . $row['st_img'];
+$id = intval($_GET['did']);
+$getImg = mysqli_query($conn, "SELECT st_img FROM students WHERE id = $id");
+$row = mysqli_fetch_assoc($getImg);
+
+if (!empty($row['st_img'])) {
+
+    $oldFile = $row['st_img'];
+    $extensions = ['jpg', 'jpeg', 'png', 'gif', 'avif'];
+
+    if (pathinfo($oldFile, PATHINFO_EXTENSION)) {
+
+        $imgPath2 = "st_image/" . $oldFile;
+
         if (file_exists($imgPath2)) {
             unlink($imgPath2);
         }
+
+    } else {
+
+        foreach ($extensions as $ext) {
+
+            $imgPath2 = "st_image/" . $oldFile . "." . $ext;
+
+            if (file_exists($imgPath2)) {
+                unlink($imgPath2);
+                break;
+            }
+        }
     }
+}
     echo "<div class='alert alert-success' role='alert'>";
     $filename2 = $_FILES['st_p_img']['name'];
     $tmpname2  = $_FILES['st_p_img']['tmp_name'];
