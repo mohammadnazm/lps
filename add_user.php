@@ -235,6 +235,7 @@ if (isset($_GET['did'])) {
             <tbody>
                 <?php
                 $counter = 1;
+                $totcou = 0;
                 $stdList = getDh("users");
                 if ($stdList->num_rows > 0) {
                     while ($row = $stdList->fetch_assoc()) {
@@ -254,7 +255,7 @@ if (isset($_GET['did'])) {
             </tbody>
         </table>
     </div>
-    <h6>Total Number Of Users : <?php echo $totcou - 1; ?></h6>
+    <h6>Total Number Of Users : <?php if($totcou == 0){ $totcou = 1;} echo $totcou - 1; ?></h6>
 
 
 </div>
