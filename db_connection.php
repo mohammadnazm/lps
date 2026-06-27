@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli('localhost', 'lps_user', 'StrongPassword123!', 'lozan_tomar');
+$conn = new mysqli('localhost', 'root', '12345678', 'lozan_tomar');
 mysqli_set_charset($conn, "utf8mb4");
 if ($conn->connect_error) {
   die("Error is: " . $conn->connect_error);
@@ -18,10 +18,50 @@ function insertStudents($tv, $as, $yt, $qw, $we, $rt, $cv, $zx, $adas, $xcv, $mc
     die("Error is: " . $conn->connect_error);
   }
 }
+function insertUsers($re, $yt, $iu, $bhs)
+{
+  global $conn;
+  $sql = "INSERT INTO users(u_name,u_pass,u_role,u_access) VALUES ('$re','$yt','$iu','$bhs')";
+  if ($conn->query($sql) === TRUE) {
+    echo "Student Added successfully. &#10004";
+  } else {
+    die("Error is: " . $conn->connect_error);
+  }
+}
+function insertAccConById( $iu)
+{
+  global $conn;
+  $sql = "INSERT INTO acc_con(acc_id) VALUES ('$iu')";
+  if ($conn->query($sql) === TRUE) {
+    echo " Added successfully. &#10004";
+  } else {
+    die("Error is: " . $conn->connect_error);
+  }
+}
+function insertAccCon( $iu)
+{
+  global $conn;
+  $sql = "INSERT INTO mark_con(pos_nm) VALUES ('$iu')";
+  if ($conn->query($sql) === TRUE) {
+    echo " Added successfully. &#10004";
+  } else {
+    die("Error is: " . $conn->connect_error);
+  }
+}
 function insertTeachers($re, $yt, $iu, $bhs)
 {
   global $conn;
   $sql = "INSERT INTO lozanstaff(teacher_img,name,education,class) VALUES ('$re','$yt','$iu','$bhs')";
+  if ($conn->query($sql) === TRUE) {
+    echo "Student Added successfully. &#10004";
+  } else {
+    die("Error is: " . $conn->connect_error);
+  }
+}
+function insertGivenClass($re, $yt)
+{
+  global $conn;
+  $sql = "INSERT INTO givenclass(t_id,t_class) VALUES ('$re','$yt')";
   if ($conn->query($sql) === TRUE) {
     echo "Student Added successfully. &#10004";
   } else {
@@ -38,12 +78,22 @@ function insertClosedClass($re,$tys)
     die("Error is: " . $conn->connect_error);
   }
 }
-function insertUsers($re, $yt, $iu, $bhs)
+function insertTeacherss($re, $yt, $iu)
 {
   global $conn;
-  $sql = "INSERT INTO users(u_name,u_pass,u_role,u_access) VALUES ('$re','$yt','$iu','$bhs')";
+  $sql = "INSERT INTO teachers(t_name,t_pass,t_sub) VALUES ('$re','$yt','$iu')";
   if ($conn->query($sql) === TRUE) {
     echo "Student Added successfully. &#10004";
+  } else {
+    die("Error is: " . $conn->connect_error);
+  }
+}
+function insertSubject($re)
+{
+  global $conn;
+  $sql = "INSERT INTO subjects(sb_name) VALUES ('$re')";
+  if ($conn->query($sql) === TRUE) {
+    echo "Subject Added successfully. &#10004";
   } else {
     die("Error is: " . $conn->connect_error);
   }
@@ -51,8 +101,26 @@ function insertUsers($re, $yt, $iu, $bhs)
 function getDh($tr)
 {
   global $conn;
-  $sql = "SELECT *  FROM $tr";
-  return $conn->query($sql);
+$sql = "SELECT * FROM $tr ORDER BY id ASC";
+return $conn->query($sql);
+}
+function getMarksBySemster($tr,$ytw,$iuy)
+{
+  global $conn;
+$sql = "SELECT * FROM $tr WHERE st_id = '$ytw' AND semseter = '$iuy'";
+return $conn->query($sql);
+}
+function getMarkCon($tr,$yte)
+{
+  global $conn;
+$sql = "SELECT * FROM $tr WHERE pos_nm = '$yte'";
+return $conn->query($sql);
+}
+function getMarkConById($tr,$yte)
+{
+  global $conn;
+$sql = "SELECT * FROM $tr WHERE acc_id = '$yte'";
+return $conn->query($sql);
 }
 function getDhAttenJoinTB($dd, $trw)
 {
