@@ -309,6 +309,7 @@ if (isset($_GET['did'])) {
                             echo "<tr>";
                             echo "<td style='text-align:left'>
                                     <a class='btn btn-warning btn-sm' role='button' href='up_st_profile.php?did=" . $row['id'] . "&nmn=" . $row['st_name'] . "' onclick=\"window.open(this.href,'PopupWindow','width=1000,height=800,scrollbars=yes'); return false;\">Update</a> | 
+                                    <a class='btn btn-secondary btn-sm' role='button' href='ad_st_marks_view.php?did=" . $row['id'] . "' onclick=\"window.open(this.href,'PopupWindow','width=1000,height=800,scrollbars=yes'); return false;\">Marks</a> | 
                                     <a class='btn btn-info btn-sm' role='button' href='st_profile.php?did=" . $row['id'] . "&nmn=" . $row['st_name'] . "' onclick=\"window.open(this.href,'PopupWindow','width=1000,height=800,scrollbars=yes'); return false;\">Profile</a> | 
                                     <a class='btn btn-danger btn-sm' role='button' href='st_data.php?did=" . $row['id'] . "' onclick=\"return confirm('Are you sure you want to delete this?');\">Delete</a>
                                   </td>";
