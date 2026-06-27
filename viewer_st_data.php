@@ -270,7 +270,11 @@ if (isset($_GET['did'])) {
                                 : "class='btn btn-danger btn-sm' style='border-radius:60px;width:100px'";
                             echo "<tr>";
                             echo "<td style='text-align:left'>
-                                    <a class='btn btn-info btn-sm' role='button' href='st_profile.php?did=" . $row['id'] . "&nmn=" . $row['st_name'] . "' onclick=\"window.open(this.href,'PopupWindow','width=1000,height=800,scrollbars=yes'); return false;\">Profile</a>
+                                    <a class='btn btn-info btn-sm' role='button' href='st_profile.php?did=" . $row['id'] . "&nmn=" . $row['st_name'] . "' onclick=\"window.open(this.href,'PopupWindow','width=1000,height=800,scrollbars=yes'); return false;\">Profile</a> | <a class='btn btn-secondary btn-sm'
+href='ad_st_marks_view.php?did={$row['id']}'
+onclick=\"window.open(this.href,'PopupWindow','width=1000,height=800,scrollbars=yes');return false;\">
+Marks
+</a>
                                   </td>";
                             echo "<td><button $stcl>{$row['st_statue']}</button></td>";
                             echo "<td>{$row['st_type']}</td>";
