@@ -1,4 +1,8 @@
-<?php session_start(); ?>
+<?php session_start();
+include "db_connection.php";
+error_reporting(0);
+ini_set('display_errors', 0);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -131,74 +135,140 @@
             text-decoration: none;
         }
     </style>
+
+
+
+
+    <?php
+
+    $stdList = getMarkCon("mark_con", "t_stat");
+    if ($stdList->num_rows > 0) {
+        while ($row = $stdList->fetch_assoc()) {
+            $st_mk_stat = $row["pos_stat"];
+        }
+    }
+    if ($st_mk_stat == "disb") {
+        $stt = "acc_ban";
+    } else {
+        $stt = "teacher_home";
+    }
+    ?>
+
+
+    <?php
+
+    $stdList = getMarkCon("mark_con", "st_stat");
+    if ($stdList->num_rows > 0) {
+        while ($row = $stdList->fetch_assoc()) {
+            $st_mk_stat1 = $row["pos_stat"];
+        }
+    }
+    if ($st_mk_stat1 == "disb") {
+        $stt1 = "acc_ban";
+    } else {
+        $stt1 = "student_home";
+    }
+    ?>
 </head>
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-include "db_connection.php"; // Make sure $conn is inside this file
 
 $error = "";
 
 if (isset($_POST["log"])) {
 
-    $email    = $_POST['email'];
-    $password = $_POST['password'];
+    $username = trim($_POST['email']);      // username/id
+    $password = trim($_POST['password']);
 
-    // Get user from database
-    $sql = "SELECT * FROM users WHERE u_name = ?";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("s", $email);
+    // ================= USERS TABLE =================
+    $stmt = $conn->prepare("SELECT * FROM users WHERE u_name = ?");
+    $stmt->bind_param("s", $username);
     $stmt->execute();
     $result = $stmt->get_result();
 
-    // Check if user exists
     if ($result->num_rows == 1) {
 
         $row = $result->fetch_assoc();
-        $uid = $row["id"];
-        $uname = $row['u_name'];
-        $pass  = $row['u_pass'];
-        $uacs  = $row['u_access'];
-        $urolw = $row['u_role'];
 
-        if ($password == $pass) {
+        if ($password == $row['u_pass']) {
 
-            if ($urolw == 'Admin') {
-                $_SESSION['adcontrol'] = $urolw;
-                $_SESSION['loginadmin'] = true;
-                header("Location: admin.php");
-                exit();
-            } elseif ($urolw == 'Manager') {
-                $_SESSION['loginm'] = true;
-                $_SESSION['userid'] = $uid;
-                $_SESSION['useraccess'] = $uacs;
-                header("Location: manager_home.php");
-                exit();
-            } elseif ($urolw == 'Viewer') {
-                $_SESSION['loginViewer'] = true;
-                $_SESSION['userid'] = $uid;
-                $_SESSION['useraccess'] = $uacs;
-                header("Location: viewer_home.php");
-                exit();
-            } elseif ($urolw == 'Assistante') {
-                $_SESSION['loginass'] = true;
-                $_SESSION['userid'] = $uid;
-                $_SESSION['useraccess'] = $uacs;
-                header("Location: attendance.php");
-                exit();
-            } elseif ($urolw == 'CEO') {
-                $_SESSION['loginaceo'] = true;
-                header("Location: ceo_home.php");
-                exit();
-            } else {
-                $error = "Access role not valid!";
+            switch ($row['u_role']) {
+
+                case "Admin":
+                    $_SESSION['loginadmin'] = true;
+                    $_SESSION['userid'] = $row['id'];
+                    header("Location: admin.php");
+                    exit();
+
+                case "Manager":
+                    $_SESSION['loginm'] = true;
+                    $_SESSION['userid'] = $row['id'];
+                    header("Location: manager_home.php");
+                    exit();
+
+                case "Viewer":
+                    $_SESSION['loginViewer'] = true;
+                    $_SESSION['userid'] = $row['id'];
+                    header("Location: viewer_home.php");
+                    exit();
+
+                case "Assistante":
+                    $_SESSION['loginass'] = true;
+                    $_SESSION['userid'] = $row['id'];
+                    header("Location: attendance.php");
+                    exit();
+
+                case "CEO":
+                    $_SESSION['loginaceo'] = true;
+                    $_SESSION['userid'] = $row['id'];
+                    header("Location: ceo_home.php");
+                    exit();
             }
-        } else {
-            $error = "Wrong password!";
         }
-    } else {
-        $error = "User not found!";
     }
+
+    // ================= TEACHERS TABLE =================
+    $stmt = $conn->prepare("SELECT * FROM teachers WHERE t_name = ?");
+    $stmt->bind_param("s", $username);
+    $stmt->execute();
+    $teacher = $stmt->get_result();
+
+    if ($teacher->num_rows == 1) {
+
+        $row = $teacher->fetch_assoc();
+
+        if ($password == $row['t_pass']) {
+
+            $_SESSION['teacher_login'] = true;
+            $_SESSION['teacher_id'] = $row['id'];
+            $_SESSION['teacher_name'] = $row['t_name'];
+
+            header("Location: ".$stt.".php");
+            exit();
+        }
+    }
+
+    // ================= STUDENTS TABLE =================
+    $stmt = $conn->prepare("SELECT * FROM students WHERE id = ?");
+    $stmt->bind_param("s", $username);
+    $stmt->execute();
+    $student = $stmt->get_result();
+
+    if ($student->num_rows == 1) {
+
+        $row = $student->fetch_assoc();
+
+        if ($password == $row['st_id_number']) {
+
+            $_SESSION['student_login'] = true;
+            $_SESSION['student_id'] = $row['id'];
+            $_SESSION['student_number'] = $row['st_id_number'];
+
+            header("Location: ".$stt1.".php");
+            exit();
+        }
+    }
+
+    $error = "Invalid username or password.";
 }
 ?>
 
