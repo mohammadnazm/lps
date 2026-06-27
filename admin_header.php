@@ -120,9 +120,21 @@ $currentDateTime2 = date('Y-m-d');
                     <li class="nav-item">
                         <a class="nav-link <?= ($current_page == 'ad_atten.php') ? 'active' : '' ?>" href="ad_atten.php">Attendance</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link <?= ($current_page == 'edit_att_data.php') ? 'active' : '' ?>" href="edit_att_data.php">Control</a>
-                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link <?= ($current_page == 'st_marks.php') ? 'active' : '' ?>" href="st_marks.php">Add Subjects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?= ($current_page == 'add_tec.php') ? 'active' : '' ?>" href="add_tec.php">Add Teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?= ($current_page == 'giv_sub.php') ? 'active' : '' ?>" href="giv_sub.php">Give Class</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?= ($current_page == 'st_add_marks.php') ? 'active' : '' ?>" href="st_add_marks.php">Add Marks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?= ($current_page == 'control_acc.php') ? 'active' : '' ?>" href="control_acc.php">Control</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link <?= ($current_page == 'arch.php') ? 'active' : '' ?>" href="arch.php">Archive</a>
                     </li>
