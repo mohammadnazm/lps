@@ -213,6 +213,10 @@ function getDhySearch($table)
 href='manager_class.php?did={$row['id']}&nmn={$row['st_name']}'
 onclick=\"window.open(this.href,'PopupWindow','width=1000,height=800,scrollbars=yes');return false;\">
 Profile
+</a> | <a class='btn btn-secondary btn-sm'
+href='ad_st_marks_view.php?did={$row['id']}'
+onclick=\"window.open(this.href,'PopupWindow','width=1000,height=800,scrollbars=yes');return false;\">
+Marks
 </a>
 </td>";
 
