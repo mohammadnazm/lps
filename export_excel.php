@@ -12,7 +12,7 @@ $sheet = $spreadsheet->getActiveSheet();
 
 
 $headers = [
-"Name","Middle Name","Birth Date","Blood Group","Nation",
+"id","Name","Middle Name","Birth Date","Blood Group","Nation",
 "Religion","Gender","Brothers","Sisters","Birth Order",
 "Home Location","Average Mark","Last School","First Year",
 "Father Tell","Mother Tell","Student Tell","Price",
@@ -33,6 +33,7 @@ $rowNum = 2;
 while($row=$result->fetch_assoc()){
 
     $sheet->fromArray([
+        $row['id'],
         $row['st_name'],
         $row['st_m_name'],
         $row['st_bd_date'],
