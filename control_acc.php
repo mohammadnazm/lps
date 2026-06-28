@@ -222,7 +222,7 @@ if (isset($_GET['did1'])) {
                     <option value="t_stat">Teachers</option>
                     <option value="m_stat">Marks</option>
                 </select>
-                <button class="btn btn-success col-12" name="u_add" type="submit">Add User</button>
+                <button class="btn btn-success col-12" name="u_add" type="submit">Block Users</button>
             </div>
         </form>
     </div>
@@ -268,7 +268,7 @@ if (isset($_GET['did1'])) {
         <form action="" method="post">
             <div style="display: flex;gap:10px;flex-wrap: wrap;">
                 <input class="form-control card shadow-sm" name="uname" placeholder="ID" type="number" required>
-                <button class="btn btn-success col-12" name="uid_add" type="submit">Add User</button>
+                <button class="btn btn-success col-12" name="uid_add" type="submit">Block User</button>
             </div>
         </form>
     </div>
