@@ -197,7 +197,6 @@ if (isset($_POST["log"])) {
                 case "Admin":
                     $_SESSION['loginadmin'] = true;
                     $_SESSION['userid'] = $row['id'];
-                    $_SESSION['useraccess'] = $row['u_access'];
                     header("Location: admin.php");
                     exit();
 
@@ -225,7 +224,6 @@ if (isset($_POST["log"])) {
                 case "CEO":
                     $_SESSION['loginaceo'] = true;
                     $_SESSION['userid'] = $row['id'];
-                    $_SESSION['useraccess'] = $row['u_access'];
                     header("Location: ceo_home.php");
                     exit();
             }
