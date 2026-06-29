@@ -193,33 +193,39 @@ if (isset($_POST["log"])) {
 
             switch ($row['u_role']) {
 
+
                 case "Admin":
                     $_SESSION['loginadmin'] = true;
                     $_SESSION['userid'] = $row['id'];
+                    $_SESSION['useraccess'] = $row['u_access'];
                     header("Location: admin.php");
                     exit();
 
                 case "Manager":
                     $_SESSION['loginm'] = true;
                     $_SESSION['userid'] = $row['id'];
+                    $_SESSION['useraccess'] = $row['u_access'];
                     header("Location: manager_home.php");
                     exit();
 
                 case "Viewer":
                     $_SESSION['loginViewer'] = true;
                     $_SESSION['userid'] = $row['id'];
+                    $_SESSION['useraccess'] = $row['u_access'];
                     header("Location: viewer_home.php");
                     exit();
 
                 case "Assistante":
                     $_SESSION['loginass'] = true;
                     $_SESSION['userid'] = $row['id'];
+                    $_SESSION['useraccess'] = $row['u_access'];
                     header("Location: attendance.php");
                     exit();
 
                 case "CEO":
                     $_SESSION['loginaceo'] = true;
                     $_SESSION['userid'] = $row['id'];
+                    $_SESSION['useraccess'] = $row['u_access'];
                     header("Location: ceo_home.php");
                     exit();
             }
