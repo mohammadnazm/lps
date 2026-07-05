@@ -24,7 +24,7 @@ if ($stdList->num_rows > 0) {
 
         <!-- Header -->
         <div class="profile-header">
-            <img src="st_image/<?php echo $stimg; ?>.jpg" alt="Student Image">
+            <img src="st_image/<?php echo $stimg; ?>" alt="Student Image">
             <h2><?php echo $stnm; ?></h2>
             <p>Student Profile</p>
         </div>
