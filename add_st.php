@@ -286,5 +286,7 @@ html, body {
         </form>
     </div>
 </div>
-
+<?php
+ob_end_flush();
+?>
 <?php include "admin_footer.php"; ?>
