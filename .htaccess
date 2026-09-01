@@ -1,0 +1,29 @@
+Options -Indexes
+DirectoryIndex index.php
+
+<FilesMatch "^(config\.php|composer\.(json|lock)|.*\.sql|.*\.md)$">
+    Require all denied
+</FilesMatch>
+
+# Error log must never be web-readable (the actual block is in logs/.htaccess,
+# since <Directory> is not valid inside a .htaccess file).
+<FilesMatch "\.log$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Raise upload limits so the Student Excel Import (up to 15 MB, see addexcel.php)
+# is not silently truncated by a low shared-hosting default. Only takes effect on
+# Apache + mod_php; on PHP-FPM/LiteSpeed set the same values in your php.ini or
+# pool config instead (see README_HOSTING.md).
+<IfModule mod_php.c>
+    php_value upload_max_filesize 20M
+    php_value post_max_size 20M
+    php_value memory_limit 256M
+    php_value max_execution_time 120
+</IfModule>

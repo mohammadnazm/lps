@@ -1,0 +1,81 @@
+
+.scrollableBox {
+    max-height: 350px;
+    /* control height */
+    overflow-y: auto;
+    width: auto;
+}
+
+.scrollableBox thead th {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 2;
+}
+
+/* INPUTS & TEXT FIELDS — when filled */
+.student-form-card input.form-control:not(:placeholder-shown),
+.student-form-card textarea.form-control:not(:placeholder-shown) {
+    border-color: #2563eb;
+    background-color: rgba(37, 99, 235, 0.15);
+    box-shadow: 0 0 0 0.15rem rgba(37, 99, 235, 0.25);
+}
+
+/* SELECT — when option selected */
+.student-form-card select:valid {
+    border-color: #2563eb;
+    background-color: rgba(37, 99, 235, 0.15);
+    box-shadow: 0 0 0 0.15rem rgba(37, 99, 235, 0.25);
+}
+
+------------------------------------------------- 
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+    margin-top: 15px;
+}
+
+.grade-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 14px 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    border: 1px solid #eef0f4;
+    transition: 0.25s ease;
+}
+
+.grade-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.grade-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grade-title span {
+    font-size: 11px;
+    background: #f1f5ff;
+    color: #4f46e5;
+    padding: 3px 8px;
+    border-radius: 999px;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 13px;
+    color: #555;
+}
+.stat-row strong {
+    font-size: 13px;
+    color: #111;
+}
