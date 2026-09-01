@@ -621,7 +621,7 @@ function insertStudents($tv, $as, $yt, $qw, $we, $rt, $cv, $zx, $adas, $xcv, $mc
 {
   global $conn;
   $schoolScope = resolveTargetSchool($schoolScope);
-  if (!schoolAllowsClass($schoolScope, (string)$azss)) { die('The selected school does not allow this class.'); }
+  if (!schoolAllowsClass($schoolScope, (string)$mkas)) { die("This school (\"$schoolScope\") doesn't have the \"$mkas\" class configured yet. Ask a General Admin to add it under Manage Schools → Grades."); }
   $sql = "INSERT INTO students(st_name,st_m_name,st_img,st_bd_date,st_b_group,st_nation,st_religion,st_gender,n_bro,n_sis,
     st_bd_order,st_home_loc,st_avg_mark,last_s_name,st_f_year,f_tell,m_tell,st_tell,st_citiiz,type_of_id,st_id_number,st_id_file,st_class,st_faculty,st_type,st_date,st_price,st_size,st_group,school_scope)
             VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
@@ -691,7 +691,7 @@ function insertTeachers($re, $yt, $iu, $bhs, $schoolScope = null)
   global $conn;
   $schoolScope = resolveTargetSchool($schoolScope);
   $teacherClass=(string)$bhs; $teacherGrade=explode('-', $teacherClass, 2)[0];
-  if (!schoolAllowsClass($schoolScope, $teacherGrade)) { die('The selected school does not allow this teacher class.'); }
+  if (!schoolAllowsClass($schoolScope, $teacherGrade)) { die("This school (\"$schoolScope\") doesn't have the \"$teacherGrade\" class configured yet. Ask a General Admin to add it under Manage Schools → Grades."); }
   $stmt = $conn->prepare("INSERT INTO lozanstaff(teacher_img,name,education,class,school_scope) VALUES (?,?,?,?,?)");
   if (!$stmt) { die("Error is: " . $conn->error); }
   $stmt->bind_param("sssss", $re, $yt, $iu, $bhs, $schoolScope);

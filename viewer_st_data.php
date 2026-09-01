@@ -1,4 +1,4 @@
-<?php include "viewer_header.php"; ?>
+<?php ob_start(); include "viewer_header.php"; ?>
 
 
 <?php

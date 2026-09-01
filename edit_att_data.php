@@ -1,4 +1,4 @@
-<?php include "admin_header.php"; ?>
+<?php ob_start(); include "admin_header.php"; ?>
 <!-- ================= STYLES ================= -->
 <style>
     /* ================= GENERAL ================= */

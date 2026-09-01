@@ -20,9 +20,9 @@ if (!defined('LOZAN_ERROR_HANDLING_SET')) {
 
 if (!defined('DB_HOST')) {
     define('DB_HOST', getenv('LOZAN_DB_HOST') ?: 'localhost');
-    define('DB_USER', getenv('LOZAN_DB_USER') ?: 'lps_user');
-    define('DB_PASS', getenv('LOZAN_DB_PASS') ?: 'StrongPassword123!');
-    define('DB_NAME', getenv('LOZAN_DB_NAME') ?: 'lozan_tomar');
+    define('DB_USER', getenv('LOZAN_DB_USER') ?: 'root');
+    define('DB_PASS', getenv('LOZAN_DB_PASS') ?: '12345678');
+    define('DB_NAME', getenv('LOZAN_DB_NAME') ?: 'school_sys');
 }
 
 // Application name shown in the browser/navbar.

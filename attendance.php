@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include "atten_header.php";
 
 

@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include "admin_header.php";
 if(!isGeneralAdmin()) { http_response_code(403); echo '<div class="alert alert-danger">Only General Administration can manage schools.</div>'; include "admin_footer.php"; exit; }
 $msg=''; $err='';
@@ -120,7 +121,8 @@ $schools=getSchools(false);
             echo '<tr>';
             echo '<td><img class="sm-logo" src="'.htmlspecialchars(schoolLogoUrl($s['school_code'])).'" alt="Logo"></td>';
             echo '<td>'.($i+1).'</td><td>'.htmlspecialchars($s['school_name']).'</td><td>'.htmlspecialchars($s['school_code']).'</td><td>'.number_format($students).'</td><td>'.number_format($teachers).'</td><td>'.number_format($users).'</td><td>'.count($grades).'</td><td><span class="'.($s['status']==='active'?'badge-on':'badge-off').'">'.htmlspecialchars($s['status']).'</span></td>';
-            echo '<td><a class="btn btn-sm btn-warning" href="schools.php?toggle='.$s['id'].'">'.($s['status']==='active'?'Disable':'Enable').'</a></td>';
+            echo '<td><a class="btn btn-sm btn-warning" href="schools.php?toggle='.$s['id'].'">'.($s['status']==='active'?'Disable':'Enable').'</a>
+                    <a class="btn btn-sm btn-primary" href="grades.php?school='.urlencode($s['school_code']).'">Grades</a></td>';
             echo '<td><form class="logo-form" method="post" enctype="multipart/form-data">
                     <input type="hidden" name="school_code_for_logo" value="'.htmlspecialchars($s['school_code'],ENT_QUOTES).'">
                     <input type="file" name="existing_logo" accept=".png,.jpg,.jpeg,.webp" required>

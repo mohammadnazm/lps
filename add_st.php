@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include "admin_header.php";
 ?>
     <?php
