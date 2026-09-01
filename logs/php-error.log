@@ -1,0 +1,471 @@
+[29-Aug-2026 10:41:24 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 10:41:24 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 10:41:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 10:41:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 10:43:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 10:43:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 10:43:50 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 10:43:50 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 10:45:37 Asia/Baghdad] PHP Warning:  Undefined array key "useraccess" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\st_profile.php on line 115
+[29-Aug-2026 11:30:10 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 11:30:10 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 11:30:14 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 11:30:14 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 19:31:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 19:31:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 19:31:11 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 19:31:11 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 19:40:50 Asia/Baghdad] PHP Warning:  Undefined array key "useraccess" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\st_profile.php on line 115
+[29-Aug-2026 19:47:29 Asia/Baghdad] PHP Warning:  Undefined array key "useraccess" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\st_profile.php on line 115
+[29-Aug-2026 19:47:41 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 19:47:41 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 19:47:44 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 19:47:44 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 19:48:24 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 19:48:24 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 19:48:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 19:48:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 19:48:59 Asia/Baghdad] PHP Warning:  Undefined array key "useraccess" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\st_profile.php on line 115
+[29-Aug-2026 19:49:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 19:49:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 19:50:02 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 19:50:02 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:02:39 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:02:39 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:02:43 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:02:43 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:02:49 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:02:49 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:03:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:03:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:03:14 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:03:14 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:05:14 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:05:14 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:05:18 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:05:18 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:31:11 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:31:11 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:31:16 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:31:16 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:31:18 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:31:18 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:31:25 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:31:25 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:31:31 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:31:31 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[29-Aug-2026 20:31:37 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[29-Aug-2026 20:31:37 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 08:26:45 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 08:26:45 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 08:26:48 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 08:26:48 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 08:26:52 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 08:26:52 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:22:37 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:22:37 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:22:41 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:22:41 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:22:44 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:22:44 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:22:47 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:22:47 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:23:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:23:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:23:58 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:23:58 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:24:14 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:24:14 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:24:19 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:24:19 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:24:43 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:24:43 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:24:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:24:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:25:33 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:25:33 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:25:38 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:25:38 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:26:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:26:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:26:58 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:26:58 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:26:58 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\student_header.php on line 18
+[30-Aug-2026 12:27:00 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\student_header.php on line 18
+[30-Aug-2026 12:27:03 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\student_header.php on line 18
+[30-Aug-2026 12:27:15 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\student_header.php on line 18
+[30-Aug-2026 12:27:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\student_header.php on line 18
+[30-Aug-2026 12:27:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:27:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:27:34 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:27:34 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:27:39 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:27:39 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:27:43 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:27:43 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:27:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:27:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:28:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:28:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:30:42 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:30:42 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:30:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:30:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:30:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\student_header.php on line 18
+[30-Aug-2026 12:30:47 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\student_header.php on line 18
+[30-Aug-2026 12:30:53 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:30:53 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:31:03 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:31:03 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:34:23 Asia/Baghdad] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\LOZAN_UNIFIED_SYSTEM\admin_header.php:121) in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\schools.php on line 88
+[30-Aug-2026 12:34:27 Asia/Baghdad] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\LOZAN_UNIFIED_SYSTEM\admin_header.php:121) in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\schools.php on line 88
+[30-Aug-2026 12:34:31 Asia/Baghdad] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\LOZAN_UNIFIED_SYSTEM\admin_header.php:121) in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\schools.php on line 88
+[30-Aug-2026 12:34:34 Asia/Baghdad] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\LOZAN_UNIFIED_SYSTEM\admin_header.php:121) in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\schools.php on line 88
+[30-Aug-2026 12:36:44 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:36:44 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 12:36:47 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 12:36:47 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 20:58:39 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 20:58:39 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 20:58:43 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 20:58:43 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 20:58:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 20:58:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:02:44 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:02:44 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:02:51 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:02:51 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:05:53 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:05:53 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:05:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:05:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:22:52 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:22:52 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:22:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:22:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:22:59 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:22:59 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:25:30 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:25:30 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:25:33 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:25:33 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:28:19 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:28:19 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:28:24 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:28:24 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:42:50 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:42:50 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:43:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:43:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:43:12 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:43:12 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:43:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:43:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:43:21 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:43:21 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:43:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:43:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:43:32 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:43:32 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:43:34 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:43:34 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 21:43:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 21:43:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 22:07:51 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 22:07:51 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 22:07:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 22:07:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 22:08:04 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 22:08:04 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 22:08:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 22:08:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[30-Aug-2026 22:18:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[30-Aug-2026 22:18:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 09:11:34 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 09:11:34 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 09:11:38 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 09:11:38 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 09:11:50 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 120
+[31-Aug-2026 09:11:50 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 120
+[31-Aug-2026 09:11:50 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 124
+[31-Aug-2026 09:11:50 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 125
+[31-Aug-2026 09:11:50 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 125
+[31-Aug-2026 09:11:50 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 127
+[31-Aug-2026 09:11:50 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 127
+[31-Aug-2026 09:12:45 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 120
+[31-Aug-2026 09:12:45 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 120
+[31-Aug-2026 09:12:45 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 124
+[31-Aug-2026 09:12:45 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 125
+[31-Aug-2026 09:12:45 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 125
+[31-Aug-2026 09:12:45 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 127
+[31-Aug-2026 09:12:45 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 127
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 120
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 120
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 124
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 125
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 125
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 127
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 127
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 120
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 120
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 124
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 125
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 125
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 127
+[31-Aug-2026 09:12:46 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 127
+[31-Aug-2026 09:19:24 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 09:19:24 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 09:19:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 09:19:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 09:19:31 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 09:19:31 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 09:19:51 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 120
+[31-Aug-2026 09:19:51 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 120
+[31-Aug-2026 09:19:51 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 124
+[31-Aug-2026 09:19:51 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 125
+[31-Aug-2026 09:19:51 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 125
+[31-Aug-2026 09:19:51 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 127
+[31-Aug-2026 09:19:51 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 127
+[31-Aug-2026 09:28:24 Asia/Baghdad] LOZAN logActivity prepare failed: Unknown column 'action_type' in 'field list'
+[31-Aug-2026 09:28:31 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:31 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:31 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 130
+[31-Aug-2026 09:28:31 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:31 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:31 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 09:28:31 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 09:28:32 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:32 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:32 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 130
+[31-Aug-2026 09:28:32 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:32 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:32 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 09:28:32 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 130
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 130
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 130
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 09:28:40 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 09:28:41 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:41 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 09:28:41 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 130
+[31-Aug-2026 09:28:41 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:41 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 09:28:41 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 09:28:41 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 14:39:02 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 14:39:02 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 14:39:06 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 14:39:06 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 14:39:46 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 14:39:46 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 14:39:46 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 130
+[31-Aug-2026 14:39:46 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 14:39:46 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 14:39:46 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 14:39:46 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 14:39:47 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 14:39:47 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 126
+[31-Aug-2026 14:39:47 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 130
+[31-Aug-2026 14:39:47 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 14:39:47 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 131
+[31-Aug-2026 14:39:47 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 14:39:47 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 133
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 146
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 146
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 150
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 151
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 151
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 153
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 153
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 146
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Warning:  Undefined array key "action_type" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 146
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 150
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Warning:  Undefined array key "target_name" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 151
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 151
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Warning:  Undefined array key "summary" in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 153
+[31-Aug-2026 14:41:02 Asia/Baghdad] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\activity_log.php on line 153
+[31-Aug-2026 14:41:14 Asia/Baghdad] LOZAN logActivity prepare failed: Unknown column 'action_type' in 'field list'
+[31-Aug-2026 19:19:30 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:19:30 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:19:36 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:19:36 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:29:23 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:29:23 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:29:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:29:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:30:12 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:30:12 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:30:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:30:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:30:39 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:30:39 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:30:42 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:30:42 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:32:41 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:32:41 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:32:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:32:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:32:58 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:32:58 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:33:01 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:33:01 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:34:40 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:34:40 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[31-Aug-2026 19:34:44 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[31-Aug-2026 19:34:44 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:40:03 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 00:40:03 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:40:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 00:40:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:40:09 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 00:40:09 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:42:49 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 00:42:49 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:42:52 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 00:42:52 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:44:21 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 00:44:21 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:44:25 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 00:44:25 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:44:26 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 61
+[01-Sep-2026 00:44:26 Asia/Baghdad] PHP Warning:  include(teacher_footer.php.php): Failed to open stream: No such file or directory in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 00:44:26 Asia/Baghdad] PHP Warning:  include(): Failed opening 'teacher_footer.php.php' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 00:44:34 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 00:44:34 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:44:42 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 00:44:42 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:44:50 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:44:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:45:03 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:45:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:54:23 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:54:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:55:02 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:55:06 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:55:41 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:55:45 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:56:09 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:56:13 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:58:32 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:58:39 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:59:04 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:59:07 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:59:41 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:59:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 00:59:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:00:37 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:00:41 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:00:50 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:00:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:01:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:01:21 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:01:41 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:01:45 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:02:06 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:02:09 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:03:44 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:03:50 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:04:18 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:04:25 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:05:06 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:05:06 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:05:11 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:05:11 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:05:11 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 61
+[01-Sep-2026 01:05:11 Asia/Baghdad] PHP Warning:  include(teacher_footer.php.php): Failed to open stream: No such file or directory in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:05:11 Asia/Baghdad] PHP Warning:  include(): Failed opening 'teacher_footer.php.php' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:05:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 61
+[01-Sep-2026 01:05:18 Asia/Baghdad] PHP Warning:  include(teacher_footer.php.php): Failed to open stream: No such file or directory in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:05:18 Asia/Baghdad] PHP Warning:  include(): Failed opening 'teacher_footer.php.php' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:05:23 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 61
+[01-Sep-2026 01:05:23 Asia/Baghdad] PHP Warning:  include(teacher_footer.php.php): Failed to open stream: No such file or directory in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:05:23 Asia/Baghdad] PHP Warning:  include(): Failed opening 'teacher_footer.php.php' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:05:24 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:05:24 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:05:28 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:05:28 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:05:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:05:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:06:00 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:06:00 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:06:00 Asia/Baghdad] PHP Warning:  include(teacher_footer.php.php): Failed to open stream: No such file or directory in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:06:00 Asia/Baghdad] PHP Warning:  include(): Failed opening 'teacher_footer.php.php' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:06:05 Asia/Baghdad] PHP Warning:  include(teacher_footer.php.php): Failed to open stream: No such file or directory in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:06:05 Asia/Baghdad] PHP Warning:  include(): Failed opening 'teacher_footer.php.php' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:06:15 Asia/Baghdad] PHP Warning:  include(teacher_footer.php.php): Failed to open stream: No such file or directory in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:06:15 Asia/Baghdad] PHP Warning:  include(): Failed opening 'teacher_footer.php.php' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\teacher_home.php on line 430
+[01-Sep-2026 01:06:16 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:06:16 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:06:20 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:06:20 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:06:57 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:06:57 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:07:01 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:07:01 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:07:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:07:54 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 01:07:59 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 01:07:59 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 06:27:26 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 06:27:26 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 06:27:35 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 06:27:35 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 06:28:22 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 06:28:22 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 06:28:26 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 06:28:26 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 06:28:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 06:28:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 06:29:03 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 06:29:03 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:32:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:32:17 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:32:23 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:32:23 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:32:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:32:27 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:32:33 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:32:33 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:32:39 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:32:39 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:32:50 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:32:50 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:32:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:32:56 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:33:05 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:33:05 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:33:35 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:33:35 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:33:38 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:33:38 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:33:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:33:46 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:37:14 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:37:14 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:37:23 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:37:23 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:43:32 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:43:32 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:43:40 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:43:40 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:43:50 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:43:50 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
+[01-Sep-2026 18:44:08 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 148
+[01-Sep-2026 18:44:08 Asia/Baghdad] PHP Warning:  Undefined variable $st_mk_stat1 in C:\laragon\www\LOZAN_UNIFIED_SYSTEM\index.php on line 164
