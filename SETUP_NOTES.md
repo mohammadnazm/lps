@@ -109,19 +109,22 @@ requests with **no login check**, which is not safe to leave on a live, public s
   (typical shared-hosting permissions of 755, owned by the same user PHP
   runs as, are usually already correct — only worth checking if uploads or
   logging start failing).
-- **PHP version and the Archive (Import/Export Excel) page:** the bundled
-  spreadsheet library (phpoffice/phpspreadsheet 5.6, in `vendor/`) officially
-  requires PHP 8.3+. Many hosting accounts default to an older version.
-  `vendor/composer/platform_check.php` has been edited to only require PHP
-  8.1+ instead, since a full scan of the library found no PHP-8.3-only syntax
-  actually in use — but this hasn't been verified against every PHP version.
-  **Best fix, if your host offers it:** switch your site to PHP 8.3 or newer
-  in your hosting control panel (cPanel: MultiPHP Manager / Select PHP
-  Version) — no file changes needed, and it removes any doubt. If you can't
-  get PHP 8.3 on your host, keep the lowered check, but specifically test the
-  Archive page's Import and Export buttons after going live — if either
-  produces an error, that's the sign your PHP version is missing something
-  this library needs, and you'd need someone with a normal internet
-  connection to run `composer require phpoffice/phpspreadsheet:^2.0` (or an
-  even older `^1.29` for maximum compatibility) locally and re-upload the
-  resulting `vendor/` folder.
+- **PHP version and the Archive (Import/Export Excel) page:** this page and
+  `export_excel.php` are the only two that need the bundled spreadsheet
+  library in `vendor/`. They require **PHP 8.1 or newer**, plus the `zip` and
+  `gd` extensions. Everything else on the site works on older PHP.
+  `composer.json` pins `config.platform.php` to `8.1.0`, so `composer update`
+  will never pull in a package that raises that floor. (It used to: an
+  automatic update to `maennchen/zipstream-php` 3.2.x — a dependency of
+  PhpSpreadsheet, not PhpSpreadsheet itself — declares `php-64bit: ^8.3`,
+  which is what made the page fail with the bare message *"Composer detected
+  issues in your platform: Your Composer dependencies require a PHP version
+  >= 8.3.0"*. Pinning the platform holds it at 3.1.1, which needs only 8.1.)
+  If the page ever reports a platform problem again, `excel_bootstrap.php`
+  now prints exactly what is missing, including the PHP version actually
+  running — fix it in your hosting control panel (cPanel: *MultiPHP Manager*
+  for the PHP version, *Select PHP Version → Extensions* for `zip`/`gd`).
+  If your host cannot offer PHP 8.1 at all, someone with a normal internet
+  connection has to lower the pin in `composer.json` and run
+  `composer require phpoffice/phpspreadsheet:^2.0` (PHP 8.0) or `^1.29`
+  (PHP 7.4) locally, then re-upload the regenerated `vendor/` folder.

@@ -6,7 +6,7 @@ ob_start();
 @ini_set('memory_limit', '256M');
 @set_time_limit(120);
 require_once __DIR__ . '/db_connection.php';
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/excel_bootstrap.php';
 
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
